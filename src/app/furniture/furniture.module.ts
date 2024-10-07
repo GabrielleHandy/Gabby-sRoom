@@ -4,6 +4,7 @@ import { TableComponent } from './table/table.component';
 import { LampComponent } from './lamp/lamp.component';
 import { ComputerComponent } from './computer/computer.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { WindowComponent } from './window/window.component';
 
 
 
@@ -14,8 +15,9 @@ import { CalendarComponent } from './calendar/calendar.component';
     TableComponent, 
     LampComponent,
     ComputerComponent,
-    CalendarComponent
+    CalendarComponent,
+    WindowComponent
   ],
-  exports:[TableComponent, LampComponent, CalendarComponent, ComputerComponent]
+  exports:[TableComponent, LampComponent, CalendarComponent, ComputerComponent, WindowComponent]
 })
 export class FurnitureModule { }
